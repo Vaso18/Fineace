@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 32.5px 80px;
+    box-sizing: content-box;
+    width: 100%;
+}
+.logo {
+    width: 109px;
+    height: 55px;
+}
+
+.menu {
+    display: flex;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(77, 77, 77, 1);
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.login {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    display: flex;
+    gap:12px;
+
+}
+.login button {
+    width: 130px;
+    height: 48px;
+    background: #fff;
+    color: #FF450D;
+    border: 2px solid #FF450D;
+    border-radius: 5px;
+}
+
+.login .sign-up {
+    background: #FF450D;
+    color: #fff;
+}
