@@ -81,15 +81,29 @@ color: #FF450D;
 .home {
     background-color: #FFF3E5;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    height: 705px;
+
 }
 
 .home .wrapper {
     max-width: 1280px;
     display: flex;
     justify-content: space-between;
-    padding: 32.5px 80px;
+    padding: 120px 44px 0px 80px;
     box-sizing: content-box;
     width: 100%;
-    height: 705px;
+    gap:120px;
+}
+ .homeintro {
+    max-width: 646px;
+ }
+
+.title {
+    font-family: Urbanist;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    width: 100%;
+    margin: 0;
 }
